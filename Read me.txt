@@ -1,0 +1,16 @@
+pour compiler les fichiers utiliser les commandes : 
+gcc -Wall exe3-3.c -o exe3-3.exe -lpthread
+gcc -Wall exe3-4-a.c -o exe3-4-a.exe -lpthread
+gcc -Wall exe3-4-b.c -o exe3-4-b.exe -lpthread
+
+Pour executer :
+./exe3-3.exe
+./exe3-4-a.exe
+./exe3-4-b.exe
+
+Pour tester, on peut utiliser les fichiers executables compilés: exe3-3.exe / exe3-4-a.exe / exe3-4-b.exe
+
+Pour utiliser les signaux, utiliser un autre terminal et lancer la commande
+kill -10 [pid du processus]
+
+Le pid du processus est affiché sur le terminal à l'execution des programmes.
